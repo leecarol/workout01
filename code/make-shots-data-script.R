@@ -1,7 +1,7 @@
 #Title: Shots Data
 #Description: Preparing the data by creating summaries of shots made by the players
 #Inputs: The script takes in the csv files.
-#Outputs: The scripts create summary outputs into text files.
+#Outputs: The script creates summary outputs into text files.
 
 library(dplyr)
 curry <- read.csv("../data/stephen-curry.csv", header = TRUE, quote = "", sep = ',', stringsAsFactors = FALSE)
