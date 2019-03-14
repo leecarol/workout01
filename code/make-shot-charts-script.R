@@ -1,7 +1,7 @@
-#Title:
-#Description:
-#Inputs:
-#Outputs:
+#Title: Shot Charts
+#Description: Creating shot charts displaying shots
+#Inputs: nba court file and individual player csv files
+#Outputs: pdfs
 
 library('jpeg')
 library('grid')
@@ -72,4 +72,20 @@ dev.off()
 
 pdf('../images/stephen-curry-shot-chart.pdf', width = 6.5, height = 5)
 curry_shot_chart
+dev.off()
+
+all_data <- read.csv('../data/shots-data.csv', sep = ',', header = TRUE, colClasses = data_types <- c('character', 'character', 'character', 'character', 'character', 'integer', 'real', 'real', 'character', 'character', 'character', 'real', 'character', 'real', 'real', 'character', 'real'))
+shots_chart <- ggplot(all_data) +
+  annotation_custom(court_image, -250, 250, -50, 420) +
+  geom_point(aes(x = x, y = y, color = shot_made_flag)) +
+  ylim(-50, 420) +
+  ggtitle('Shot Chart: GSW (2016 Season)') +
+  theme_minimal() + facet_wrap(~ name)
+
+pdf('../images/gsw-shot-chart.pdf', width = 8, height = 7)
+shots_chart
+dev.off()
+
+png('../images/gsw-shot-chart.png', width = 8, height = 7, units = 'in', res = 100)
+shots_chart
 dev.off()

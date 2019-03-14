@@ -1,10 +1,3 @@
-     X.1                 X            
- Length:1220        Length:1220       
- Class :character   Class :character  
- Mode  :character   Mode  :character  
-                                      
-                                      
-                                      
   team_name          game_date        
  Length:1220        Length:1220       
  Class :character   Class :character  
@@ -12,13 +5,13 @@
                                       
                                       
                                       
-    season              period     
- Length:1220        Min.   :1.000  
- Class :character   1st Qu.:1.000  
- Mode  :character   Median :2.000  
-                    Mean   :2.369  
-                    3rd Qu.:3.000  
-                    Max.   :4.000  
+     season         period     
+ Min.   :2016   Min.   :1.000  
+ 1st Qu.:2016   1st Qu.:1.000  
+ Median :2016   Median :2.000  
+ Mean   :2016   Mean   :2.369  
+ 3rd Qu.:2016   3rd Qu.:3.000  
+ Max.   :2016   Max.   :4.000  
  minutes_remaining seconds_remaining
  Min.   : 0.000    Min.   : 0.00    
  1st Qu.: 4.000    1st Qu.:14.00    
