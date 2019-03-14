@@ -54,7 +54,7 @@ overall
 Golden State Warriors Shooting Statistics
 -----------------------------------------
 
-<img src="../../strength.jpg" width="80%" style="display: block; margin: auto;" />
+<img src="../images/strength.jpg" width="80%" style="display: block; margin: auto;" />
 
 Strength in numbers. This iconic slogan of the Golden State Warriors proves itself true through the historic streaks and stats of the team. Though hitting a blunder in the 2016 Finals, losing in Game 7 to the Cleveland Cavaliers, the data is real: the Warriors have some of the highest stats in the NBA. What is the secret to the Warriors' strong scores? In this article, we will break down shooting statistics and take a deeper look into the points that build up this strength in numbers.
 
