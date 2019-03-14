@@ -4,11 +4,11 @@
 #Outputs: The script creates summary outputs into text files.
 
 library(dplyr)
-curry <- read.csv("../data/stephen-curry.csv", header = TRUE, quote = "", sep = ',', stringsAsFactors = FALSE)
-durant <- read.csv('../data/kevin-durant.csv', header = TRUE, quote = "", sep = ',', stringsAsFactors = FALSE)
-green <- read.csv('../data/draymond-green.csv', header = TRUE, quote = "", sep = ',', stringsAsFactors = FALSE)
-iguodala <- read.csv('../data/andre-iguodala.csv', header = TRUE, quote = "", sep = ',', stringsAsFactors = FALSE)
-thompson <- read.csv('../data/klay-thompson.csv', header = TRUE, quote = "", sep = ',', stringsAsFactors = FALSE)
+curry <- read.csv("../data/stephen-curry.csv", header = TRUE, stringsAsFactors = FALSE)
+durant <- read.csv('../data/kevin-durant.csv', header = TRUE, stringsAsFactors = FALSE)
+green <- read.csv('../data/draymond-green.csv', header = TRUE, stringsAsFactors = FALSE)
+iguodala <- read.csv('../data/andre-iguodala.csv', header = TRUE, stringsAsFactors = FALSE)
+thompson <- read.csv('../data/klay-thompson.csv', header = TRUE, stringsAsFactors = FALSE)
 curry <- mutate(curry, name = 'Stephen Curry')
 durant <- mutate(durant, name = 'Kevin Durant')
 green <- mutate(green, name = 'Draymond Green')
