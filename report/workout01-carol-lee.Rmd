@@ -30,6 +30,10 @@ overall
 
 ## Golden State Warriors Shooting Statistics
 
+```{r out.width = '80%', echo = FALSE, fig.align = 'center'}
+knitr::include_graphics('../../strength.jpg')
+```
+
 Strength in numbers. This iconic slogan of the Golden State Warriors proves itself true through the historic streaks and stats of the team. Though hitting a blunder in the 2016 Finals, losing in Game 7 to the Cleveland Cavaliers, the data is real: the Warriors have some of the highest stats in the NBA. What is the secret to the Warriors' strong scores? In this article, we will break down shooting statistics and take a deeper look into the points that build up this strength in numbers.
 
 ### Background and Data
@@ -115,6 +119,6 @@ Because of his high amount of times shot as well as high amount of 3-pointers, C
 Now, we can turn back to the percentages and make our observations and conclusions of what best helps the Warriors boost their numbers there.
 
 ### Conclusion and Summary
-Now that we have taken a look at the data and drawn some useful graphs and visuals, let's take a moment to digest what we have discovered. Looking at two-pointers, we found that Andre Iguodala had the highest percentages of scored shots. For three-pointers, Thompson held the lead. However, overall, Durant scored the highest percentage of shots, followed by Iguodala. Because the players have a better percentage of two-pointers scored, these contribute most to their overall score. We see that each of the players has different stregnths and weaknesses, but together, they balance each other out and are able to score highly, even for those who do not have the highest percentage like Curry. Seems like the Warriors hold true to their "Strength in Numbers!"
+Now that we have taken a look at the data and drawn some useful graphs and visuals, let's take a moment to digest what we have discovered. Looking at two-pointers, we found that Andre Iguodala had the highest percentages of scored shots. For three-pointers, Thompson held the lead. However, overall, Durant scored the highest percentage of shots, followed by Iguodala. Because the players have a better percentage of two-pointers scored, these contribute most to their overall score. We see that each of the players has different stregnths and weaknesses, but together, they balance each other out and are able to score highly, even for those who do not have the highest percentage like Curry. Whether the player's best strategy is to shot two-pointers, shoot three-pointers, or shot frequently, they come together to boost their high scores. Seems like the Warriors hold true to their "Strength in Numbers!"
 
 

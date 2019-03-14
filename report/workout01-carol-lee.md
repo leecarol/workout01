@@ -54,6 +54,8 @@ overall
 Golden State Warriors Shooting Statistics
 -----------------------------------------
 
+<img src="../../strength.jpg" width="80%" style="display: block; margin: auto;" />
+
 Strength in numbers. This iconic slogan of the Golden State Warriors proves itself true through the historic streaks and stats of the team. Though hitting a blunder in the 2016 Finals, losing in Game 7 to the Cleveland Cavaliers, the data is real: the Warriors have some of the highest stats in the NBA. What is the secret to the Warriors' strong scores? In this article, we will break down shooting statistics and take a deeper look into the points that build up this strength in numbers.
 
 ### Background and Data
@@ -189,13 +191,13 @@ points_overall_table$name <- factor(points_overall_table$name, levels = points_o
 ggplot(points_overall_table, aes(name, total)) + geom_bar(stat = 'identity') + coord_flip() + xlab('Player') + ylab('Total Shots') + ggtitle('Total Shots Attempted (2016)')
 ```
 
-![](workout01-carol-lee_files/figure-markdown_github/unnamed-chunk-6-1.png)
+![](workout01-carol-lee_files/figure-markdown_github/unnamed-chunk-7-1.png)
 
 ``` r
 ggplot(points_overall_table, aes(name, total_points)) + geom_bar(stat = 'identity') + coord_flip() + xlab('Player') + ylab('Total Points Scored') + ggtitle('Total Points Scored (2016)')
 ```
 
-![](workout01-carol-lee_files/figure-markdown_github/unnamed-chunk-6-2.png)
+![](workout01-carol-lee_files/figure-markdown_github/unnamed-chunk-7-2.png)
 
 Because of his high amount of times shot as well as high amount of 3-pointers, Curry comes in first in terms of total number of points scored overall even though Durant made the highest percentages of shots. The ranking of the total number of shots attempted aligns with the ranking of total points scored, so there are no surprises there.
 
@@ -203,4 +205,4 @@ Now, we can turn back to the percentages and make our observations and conclusio
 
 ### Conclusion and Summary
 
-Now that we have taken a look at the data and drawn some useful graphs and visuals, let's take a moment to digest what we have discovered. Looking at two-pointers, we found that Andre Iguodala had the highest percentages of scored shots. For three-pointers, Thompson held the lead. However, overall, Durant scored the highest percentage of shots, followed by Iguodala. Because the players have a better percentage of two-pointers scored, these contribute most to their overall score. We see that each of the players has different stregnths and weaknesses, but together, they balance each other out and are able to score highly, even for those who do not have the highest percentage like Curry. Seems like the Warriors hold true to their "Strength in Numbers!"
+Now that we have taken a look at the data and drawn some useful graphs and visuals, let's take a moment to digest what we have discovered. Looking at two-pointers, we found that Andre Iguodala had the highest percentages of scored shots. For three-pointers, Thompson held the lead. However, overall, Durant scored the highest percentage of shots, followed by Iguodala. Because the players have a better percentage of two-pointers scored, these contribute most to their overall score. We see that each of the players has different stregnths and weaknesses, but together, they balance each other out and are able to score highly, even for those who do not have the highest percentage like Curry. Whether the player's best strategy is to shot two-pointers, shoot three-pointers, or shot frequently, they come together to boost their high scores. Seems like the Warriors hold true to their "Strength in Numbers!"
