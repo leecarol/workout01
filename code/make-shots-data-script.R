@@ -29,6 +29,8 @@ iguodala <- mutate(iguodala, minute = iguodala$period * 12 - iguodala$minutes_re
 thompson$shot_made_flag[thompson$shot_made_flag == 'y'] = 'shot_yes'
 thompson$shot_made_flag[thompson$shot_made_flag == 'n'] = 'shot_no'
 thompson <- mutate(thompson, minute = thompson$period * 12 - thompson$minutes_remaining)
+stacked <- rbind(curry, durant, green, iguodala, thompson)
+write.csv(stacked, file = "../data/shots-data.csv")
 sink('../output/stephen-curry-summary.txt')
 summary(curry)
 sink()
@@ -43,10 +45,6 @@ summary(iguodala)
 sink()
 sink('../output/klay-thompson-summary.txt')
 summary(thompson)
-sink()
-stacked_table <- rbind(curry, durant, green, iguodala, thompson)
-sink('../data/shots-data.csv')
-stacked_table
 sink()
 sink('../output/shots-data-summary.txt')
 summary(stacked_table)
