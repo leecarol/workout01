@@ -28,7 +28,7 @@ From the chart, we get a visual representation of each of these five team member
 
 Andre Iguodala, the small forward and shooting guard of the team, was an NBA All-Star in 2012. Let's take a look at his shots in 2016.
 
-From the chart, we get a visual representation of the shots Iguodala has taken and the ones which he scored and missed. Iguodala attempted the least amount of shots, but he has a fair amount of shots made. From calculating the exact percentages, the percentage of two-pointers he made is approximately 63.80%, while the percentage of three-pointers he made is approximately 36.02%.
+From the chart, we get a visual representation of the shots Iguodala has taken and the ones which he scored and missed. Iguodala attempted the least amount of shots, but he has a fair amount of shots made. From calculating the exact percentages, the percentage of two-pointers he made is approximately 63.81%, while the percentage of three-pointers he made is approximately 36.02%.
 
 #### Draymond Green
 
@@ -38,19 +38,21 @@ From looking at the chart, Green seems to have a larger number of red points tha
 
 #### Kevin Durant
 
-Next, we examine the scores of Kevin Durant, an All-Star forward. He is a two-time champion and two-time NBA Most Valuable Player. His shots are very evenly spread out, as we can see from the chart. Regarding his exact scores, he has made 60.65% of his two-pointers and 38.60% of his three-pointers.
+Next, we examine the scores of Kevin Durant, an All-Star forward. He is a two-time champion and two-time NBA Most Valuable Player.
+
+His shots are very evenly spread out, as we can see from the chart. Regarding his exact scores, he has made 60.65% of his two-pointers and 38.60% of his three-pointers.
 
 #### Klay Thompson
 
 Next up, we have Klay Thompson, a shooting guard. Thompson is credited as one of the greatest shooters in NBA. We will see if his 2016 stats align with that! He is a five-time All-Star and a three-time NBA champion.
 
-From the visual, his shots are fairly scattered and spread. His stats are 51.41% of two-pointers made, and 41.41% of three-pointers made.
+From the visual, his shots are fairly scattered and spread. He seems to have a good amount of both 2-pointers and 3-pointers made. His stats are 51.41% of two-pointers made, and 42.41% of three-pointers made.
 
 #### Stephen Curry
 
 Alright, last but not least, we have Stephen Curry, point guard. Curry has some impressive titles, being a six-time NBA All-Star, two-time NBA Most Valuable Player, and three-time champion.
 
-Curry has made approximately 54.00% of his attempted two-pointers, and approximately 40.76% of his attempted three-pointers.
+From the visual, we see that Curry attempts 3-pointers from far away that others do not, but misses them. However, he has a large amount of 3-pointers made. Curry has made approximately 54.00% of his attempted two-pointers, and approximately 40.76% of his attempted three-pointers.
 
 ### Discussion
 
@@ -117,7 +119,7 @@ Here is a table of the total number of points each of these five members scored 
 
 Curry and Thompson have the highest number of points scored from all shots made, mostly due to their high number of attempted shots.
 
-For the percentage of points made out of the point value of all attempted shots, the ranking remains the same as for the analysis with shots made, suggesting to us that overall, the contribution of each extra point from each three-pointer is not effective enough to overtake the score of a less accurate three-pointer thrower. We see that because Thompson and Curry scored a significant amount of three-pointers over the rest, the difference in the percentage of shots made and the percentage of points scored is not as much as for this same difference in the other three players. Their accuracy in scoring three-pointers gives them a boost in increasing their percentage of points made out of those attempted, but it is not significant enough to push them to a higher rank. Therefore, the players who score the most points out of the points they attempt remain the same as those who made the highest number of shots. This goes to Durant and Iguodala, who have high two-pointer shooting accuracy. So, the bulk of the points the Warriors score is due to their strength in making two-pointers. Because the players' shooting accuracy for two-pointers is significantly higher as compared to their accuracy for three-pointers, overall, shooting two-pointers is what contributes most to their scores. Of course, the three-pointers contribute to a good chunk of their overall score, but looking at how much a two-pointer benefits the Warriors versus a three-pointer while taking into account each player's accuracy, the two-pointers are the most important and make the most difference in how well they score.
+For the percentage of points made out of the point value of all attempted shots, the ranking remains the same as for the analysis with shots made, suggesting to us that overall, the contribution of each extra point from each three-pointer is not effective enough to overtake the score of a less accurate three-pointer thrower. We see that because Thompson and Curry scored a significant amount of three-pointers over the rest, the difference in the percentage of shots made and the percentage of points scored is not as much as for this same difference in the other three players. Their accuracy in scoring three-pointers gives them a boost in increasing their percentage of points made out of those attempted, but it is not significant enough to push them to a higher rank. Therefore, the players who scored the most points out of the points they attempt remain the same as those who made the highest number of shots. This goes to Durant and Iguodala, who have high two-pointer shooting accuracy. So, the bulk of the points the Warriors score is due to their strength in making two-pointers. Because the players' shooting accuracy for two-pointers is significantly higher as compared to their accuracy for three-pointers, overall, shooting two-pointers is what contributes most to their scores. Of course, the three-pointers contribute to a good chunk of their overall score, but looking at how much a two-pointer benefits the Warriors versus a three-pointer while taking into account each player's accuracy, the two-pointers are the most important and make the most difference in how well they score.
 
 ### Conclusion and Summary
 
